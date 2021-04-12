@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <Router>
         <Switch>
-          <Route path='/dashboard' component={Dashboard} />
+          <Route path='/' exact component={Dashboard} />
           <Route path='tsk:id' component='' />
           <Route path='/navigation' component={Navigation} />
           <Route path='*'>404 no found</Route>

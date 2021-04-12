@@ -57,7 +57,7 @@ const Navigation = () => {
     <Container>
       <NavigationBox>
         <LinksContainer>
-          <NavLink to='/dashboard'>Profile</NavLink>
+          <NavLink to='/'>Profile</NavLink>
           <NavLink to='/dashboard'>dasboard</NavLink>
           <NavLink to='/'>Create Task</NavLink>
           <NavLink to='/managetasks'>Manage Tasks</NavLink>
